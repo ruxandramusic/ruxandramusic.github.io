@@ -24,6 +24,7 @@ export default function Home() {
 
       <section className="hero" id="top" aria-labelledby="hero-title">
         <div className="hero-noise" aria-hidden="true" />
+        <div className="hero-portrait" aria-hidden="true" />
         <p className="eyebrow hero-eyebrow">Los Angeles · California</p>
         <div className="hero-copy">
           <h1 id="hero-title">Ruxandra</h1>
