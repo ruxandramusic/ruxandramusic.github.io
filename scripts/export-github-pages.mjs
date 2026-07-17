@@ -1,7 +1,7 @@
 import { cp, mkdir, writeFile } from "node:fs/promises";
 
 const source = "http://localhost:3000/";
-const pageUrl = "https://ruxandramusic.github.io/website/";
+const pageUrl = "https://ruxandramusic.github.io/";
 
 const response = await fetch(source);
 if (!response.ok) {
