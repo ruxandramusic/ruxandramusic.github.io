@@ -37,3 +37,9 @@ em { font-weight: 400; color: var(--gold); }
 .hero::after { display: none; }
 .hero-portrait { opacity: 1; background-image: linear-gradient(90deg, rgba(0,0,0,.25), transparent 65%), url('/hero-ruxandra-20260909.jpg'); background-position: center, center 40%; background-size: cover; filter: none; mix-blend-mode: normal; -webkit-mask-image: none; mask-image: none; }
 @media (max-width: 720px) { .hero-portrait { opacity: 1; background-position: center, 42% center; -webkit-mask-image: none; mask-image: none; } }
+
+@font-face { font-family: 'Bodoni Moda'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/bodoni-moda.ttf') format('truetype'); }
+.hero h1, .wordmark { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 400; text-transform: uppercase; letter-spacing: -.035em; }
+.hero h1 { font-size: clamp(36px, 12vw, 200px); line-height: 1; }
+.wordmark { letter-spacing: .02em; }
+.hero-line { max-width: none; margin: 30px 0 0; font-family: var(--font-geist), Arial, sans-serif; font-size: clamp(14px, 1.3vw, 20px); line-height: 1.5; letter-spacing: .12em; color: var(--cream); }

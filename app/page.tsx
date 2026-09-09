@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="Primary navigation">
-        <a className="wordmark" href="#top">Ruxandra</a>
+        <a className="wordmark" href="#top">RUXANDRA</a>
         <div className="nav-links">
           <a href="#music">Music</a>
           <a href="#about">About</a>
@@ -24,10 +24,10 @@ export default function Home() {
 
       <section className="hero" id="top" aria-labelledby="hero-title">
         <div className="hero-portrait" aria-hidden="true" />
-        <p className="eyebrow hero-eyebrow">Los Angeles · California</p>
+
         <div className="hero-copy">
-          <h1 id="hero-title">Ruxandra</h1>
-          <p className="hero-line">A voice for the space<br />between breaking &amp; becoming.</p>
+          <h1 id="hero-title">RUXANDRA</h1>
+          <p className="hero-line">LOVE PAIN OUT ON ALL PLATFORMS</p>
           <a className="circle-link" href="#music">
             <span>Listen<br />in</span>
             <Arrow />
