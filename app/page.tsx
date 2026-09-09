@@ -23,7 +23,6 @@ export default function Home() {
       </nav>
 
       <section className="hero" id="top" aria-labelledby="hero-title">
-        <div className="hero-noise" aria-hidden="true" />
         <div className="hero-portrait" aria-hidden="true" />
         <p className="eyebrow hero-eyebrow">Los Angeles · California</p>
         <div className="hero-copy">
@@ -33,9 +32,6 @@ export default function Home() {
             <span>Listen<br />in</span>
             <Arrow />
           </a>
-        </div>
-        <div className="eclipse" aria-hidden="true">
-          <div className="eclipse-core" />
         </div>
         <p className="hero-caption">Downtempo soul / late-night revelation</p>
         <a className="scroll-cue" href="#music">Scroll to enter <span>↓</span></a>
